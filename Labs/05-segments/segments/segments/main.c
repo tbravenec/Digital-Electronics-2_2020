@@ -70,6 +70,17 @@ ISR(TIMER0_OVF_vect)
 		SEG_update_shift_regs(decimals, pos);
 		pos = 0;
 	}
+	switch(pos)
+	{
+		case 0:
+			break;
+		case 1:
+			break;
+		case 2:
+			break;
+		default:
+			break;
+	}
 }
 
 /**
